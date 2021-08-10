@@ -1,0 +1,163 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
+    background-size: 100vw 100vh;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.top img{
+    margin: 2%;
+    width: 15%;
+}
+.top{
+    height: 15%;
+    width: 100%;
+}
+.mid{
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+.bot{
+    width: 100%;
+    height: 10%;
+}
+.left{
+    width: 55%;
+    height: 100%;
+
+}
+.right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    margin-left: 3%;
+    width: 90%;
+    height: 90%;
+}
+.text{
+    height: 85%;
+    width: 100%;
+}
+.text h1{
+    font-family: 'Poppins', sans-serif;
+    width: 65%;
+    color: white;
+    font-weight: 600;
+    font-size: 4.6vh;
+
+}
+.text p{
+    color: white;
+    width: 70%;
+    font-size: 2.1vh
+}
+.text button{
+    color: hsl(257, 40%, 49%);
+    width: 20%;
+    height: 8%;
+    font-size: 1.7vh;
+    border-radius: 5vh;
+    border: none;
+    font-weight: 600;
+    outline: none;
+    box-shadow: 5px 1px 35px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 1px 35px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 1px 35px -10px rgba(0,0,0,0.75);
+}
+.text button:hover{
+    cursor: pointer;
+}
+.bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    margin: .5%;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 1.8%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: white;
+}
+.social:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+.botChild{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media  screen and (max-width: 800px) {
+    .main{
+        display: flex;
+        background-image: url('./images/bg-mobile.svg');
+        width: 100vw;
+        height: 120vh;
+    }
+    .top{
+        height: 15vh;
+    }
+    .top img{
+        width: 40%;
+        margin: 4%;
+    }
+    .mid{
+        flex-direction: column;
+    }
+    .left{
+        width: 90%;
+        height: 50%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        height: 60%;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+    .text h1{
+        width: 100%;
+    }
+    .text p{
+        width: 100%;
+    }
+    .text button{
+        width: 40%;
+        height: 15%;
+    }
+    .bot{}
+    .botChild{
+        
+        justify-content: center;
+    }
+    .social{
+        width: 10%;
+        margin: 2%;
+        height: 60%;
+    }
+}
