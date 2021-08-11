@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/htmlcssflexboxfont-awesome-8MCtyYztv)
+- Live Site URL: [live site URL](https://gigagiorgadze.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
